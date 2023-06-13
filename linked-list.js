@@ -145,11 +145,3 @@ class LinkedList {
     this.size--;
   }
 }
-
-const ll = new LinkedList();
-
-ll.preppend(200);
-ll.preppend(100);
-ll.append(300);
-ll.insertAt(50, 0);
-console.log(ll.toString());
